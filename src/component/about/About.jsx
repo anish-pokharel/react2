@@ -1,7 +1,12 @@
 import React from "react";
+import Back from "../common/back/Back";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <>
+      <Back title="About us" />
+    </>
+  );
 };
 
 export default About;
