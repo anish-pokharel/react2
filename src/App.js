@@ -18,26 +18,19 @@ import Footer from "./component/common/footer/Footer";
 function App() {
   return (
     <>
-      {/* <Router>
-        <Header />
-        <Home />
-        <About />
-         <Route path="/" component={Home} /> 
-      </Router> */}
-
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<CourseHome />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+          <Route path="/" element={<Home />} />{" "}
+          <Route path="/about" element={<About />} />{" "}
+          <Route path="/courses" element={<CourseHome />} />{" "}
+          <Route path="/team" element={<Team />} />{" "}
+          <Route path="/pricing" element={<Pricing />} />{" "}
+          <Route path="/blog" element={<Blog />} />{" "}
+          <Route path="/contact" element={<Contact />} />{" "}
+        </Routes>{" "}
         <Footer />
-      </BrowserRouter>
+      </BrowserRouter>{" "}
     </>
   );
 }

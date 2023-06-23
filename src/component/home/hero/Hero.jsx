@@ -9,10 +9,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <Title
-              subtitle="WELCOME TO ACADEMIA "
-              title="Best Online Education "
-            />
+            <Title subtitle="WELCOME TO OPLM " title="Best Online Library " />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Consequatur quod nisi molestiae ea veniam obcaecati sed rem
@@ -25,7 +22,7 @@ const Hero = () => {
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
               <button className="primary-btn">
-                VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
+                Views Books <i className="fa fa-long-arrow-alt-right"></i>
               </button>
             </div>
           </div>

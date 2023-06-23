@@ -43,6 +43,23 @@ export const awrapper = [
     title: "COURSES",
   },
 ];
+export const cardData = [
+  {
+    image: "path/to/image1.jpg",
+    title: "Book Title 1",
+    author: "Author 1",
+  },
+  {
+    image: "path/to/image2.jpg",
+    title: "Book Title 2",
+    author: "Author 2",
+  },
+  {
+    image: "path/to/image3.jpg",
+    title: "Book Title 3",
+    author: "Author 3",
+  },
+];
 export const coursesCard = [
   {
     id: 1,

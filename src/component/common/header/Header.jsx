@@ -18,7 +18,7 @@ const Header = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/courses">All Courses</Link>
+              <Link to="/courses">All Books</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
@@ -38,7 +38,11 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <div className="button">Get Certificate</div>
+            <div className="button">
+              <ul>
+                <li>Member</li>
+              </ul>
+            </div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
