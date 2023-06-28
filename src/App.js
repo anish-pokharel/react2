@@ -28,6 +28,8 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />{" "}
           <Route path="/blog" element={<Blog />} />{" "}
           <Route path="/contact" element={<Contact />} />{" "}
+          {/* <Route path="/login" element={<Login />} />{" "}
+                                              <Route path="/registration" element={<Registration />} />{" "} */}{" "}
         </Routes>{" "}
         <Footer />
       </BrowserRouter>{" "}
